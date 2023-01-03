@@ -8,13 +8,17 @@ An app build with React that helps keep a track of the monthly expenses.
 - OnClick event, the **_Add Expense_** will validate all input fields to check if all fields have data. If a field is found to be empty, the app will highlight the input field to indicate that by changing the backgroud color of the input field.
 - If all information are entered correctly, the expense will be added to the list below.
 - The app has date ranged between the year 2019 and 2023, hence the expense data will be saved to the year selected.
-- The expense list has a Year filter and to see the expenses foe the setected year, user needs to select the Year from the dropdown.
-- The app uses local memory.
+- The expense list has a Year filter and to see the expenses for the setected year, user needs to select the Year from the dropdown.
+- The app uses static data and react states to store the data, hence on page refresh the added data will be lost.
 
-### Project Goal
+### React Features
 
-- I did not build this project from scratch. I used the layout(HTML and CSS) to practice writing codes to establish communication between different functional components.
-- In this project I have learnt about **_State Hooks_** in React and it's uses.
-- How **_props_** are being passed into functional components.
-- How a State maintained in a Parent component can be used to manipulate the behaviour of the child components and how a communication is established between siblings.
-- How to establish a two way bonding by using **_State Hook_**.
+I did not build this project from scratch. I used the layout(HTML and CSS) to practice writing codes to establish communication between different functional components.
+
+1. In this project I have learnt about **_State Hooks_** and it's uses. The initial data has been set in a state inside _App.js_. Which is then passed into the **Expenses.js** componenet as _props_. Here, App.js acts as the closest Parent maintaining the state.
+
+2. How **_props_** are being passed as attribute in a customized element and how we can access the props(object) inside of a functional component.
+
+3. How a handler function is passed into a child component as a props, from the parent component so as to change the output of a sibling component.
+
+4. How to establish a two way bonding by using **_State Hook_**.
