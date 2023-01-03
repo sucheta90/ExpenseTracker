@@ -1,6 +1,6 @@
 # Expense Tracker
 
-An app build with React that helps keep a track of the monthly expenses. I did not build this project from scratch. Howeever the logics used
+An app build with React that helps keep a track of the monthly expenses.
 
 ## Features
 
